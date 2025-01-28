@@ -1,0 +1,51 @@
+    /* Main Content Css  */
+
+    .main-boxes {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 50px 20px;
+        justify-content: space-between;
+
+    }
+   .box{
+        border-radius: 12px;
+    }
+
+    .box:hover{
+        box-shadow: 0 -1px 15px rgba(255, 255, 255, 0.522);
+    }
+
+  .content{
+    width: 100%;
+    height: 56px;
+    background-color: #0c2461;
+    border-radius: 5px;
+  }
+
+.con-ul{
+        display: flex;
+        list-style-type: none;
+        justify-content: space-around;
+        margin-top: 15px;
+        font-size: 18px;
+        font-weight: 500;
+        letter-spacing: 2px;
+}
+
+
+.ahad{
+    display: flex;
+        margin-top: 15px;
+        font-size: 18px;
+        font-weight: 500;
+        letter-spacing: 2px;
+        align-items: center;
+        justify-content: center;
+}
+
+@media only screen and (max-width:768px){
+
+    .content{
+        display:none
+    }
+}

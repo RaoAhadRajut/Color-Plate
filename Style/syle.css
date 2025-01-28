@@ -1,0 +1,116 @@
+        /* body content */
+
+*{
+    margin: 0px;
+    padding: 0px;
+    border: 0px;
+    color: rgb(255, 255, 255);
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-decoration: none;
+}
+
+
+body {
+    background-color: #3c40c6;
+    background-image: url(/Assets/stars-opacity.0979c1.svg);
+    background-repeat: repeat;
+
+    /* main body div */
+}
+.main{
+    width: 1100px;
+    height: auto;
+    /* background-color: rgb(9, 248, 248); */
+    margin: auto;
+
+}
+
+    /* Nav Bar Css */
+
+nav{
+    height: 105px;
+    width: 100%;
+    /* background-color: rgb(0, 139, 19); */
+    display: flex;
+    position: relative;
+    align-items: center;
+}
+.nav-ul{
+    display: flex;
+    list-style-type: none;
+    position: absolute;
+    right: 0%;
+    margin-left: 2px;
+
+}
+nav ul li div a{
+    font-size: 110%;
+    margin: 0 5px 0 40;
+    font-weight: 400;
+}
+.box1{ 
+    position: relative;
+    right: 5px;
+
+}
+
+            /* logo Css . the h1 is logo text */
+.h1{
+  font-size: 140%;
+  color: white;
+  font-weight: 600;
+  letter-spacing: 1.5px;
+}
+.h1:active{
+    font-size: 120%;
+
+}
+ .box1:active a:active {
+    font-size: 100%;
+}
+.box2:active a:active {
+    font-size: 100%;
+}
+
+.about{
+    padding:10px
+}
+
+/* mobile Media Query  (max-width:455px)*/
+
+
+@media only screen and (max-width:455px) {
+    
+    .main{
+        width: 100%;
+        height: 999px;
+        margin: auto;
+    }
+     
+/* This is logo Media Query */
+
+    .h1 {
+        margin-left: 9%;
+        font-size: 150%;
+    }
+    
+}
+
+@media only screen and (max-width:710px) {
+    
+    nav ul li div a{
+        display:none}
+
+}
+
+
+@media only screen and (max-width:768px){
+
+    .box{
+        justify-content: space-around;
+        margin: auto;
+    }
+}
+
+
+
